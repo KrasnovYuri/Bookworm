@@ -11,7 +11,8 @@
 		921591D02C2952C2002A44B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921591CF2C2952C2002A44B3 /* ContentView.swift */; };
 		921591D22C2952C3002A44B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921591D12C2952C3002A44B3 /* Assets.xcassets */; };
 		921591D52C2952C3002A44B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921591D42C2952C3002A44B3 /* Preview Assets.xcassets */; };
-		92B449EC2C29657000B19C77 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B449EB2C29657000B19C77 /* Student.swift */; };
+		92B449EE2C29C54D00B19C77 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B449ED2C29C54D00B19C77 /* Book.swift */; };
+		92B449F02C29C5F700B19C77 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B449EF2C29C5F700B19C77 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		921591CF2C2952C2002A44B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		921591D12C2952C3002A44B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		921591D42C2952C3002A44B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		92B449EB2C29657000B19C77 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		92B449ED2C29C54D00B19C77 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		92B449EF2C29C5F700B19C77 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				921591CD2C2952C2002A44B3 /* BookwormApp.swift */,
+				92B449EF2C29C5F700B19C77 /* AddBookView.swift */,
+				92B449ED2C29C54D00B19C77 /* Book.swift */,
 				921591CF2C2952C2002A44B3 /* ContentView.swift */,
-				92B449EB2C29657000B19C77 /* Student.swift */,
 				921591D12C2952C3002A44B3 /* Assets.xcassets */,
 				921591D32C2952C3002A44B3 /* Preview Content */,
 			);
@@ -141,8 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				921591D02C2952C2002A44B3 /* ContentView.swift in Sources */,
-				92B449EC2C29657000B19C77 /* Student.swift in Sources */,
 				921591CE2C2952C2002A44B3 /* BookwormApp.swift in Sources */,
+				92B449EE2C29C54D00B19C77 /* Book.swift in Sources */,
+				92B449F02C29C5F700B19C77 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
