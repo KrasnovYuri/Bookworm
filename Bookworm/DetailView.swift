@@ -36,6 +36,7 @@ struct DetailView: View {
 
             RatingView(rating: .constant(book.rating))
                 .font(.largeTitle)
+//Мы не хотим, чтобы пользователи могли настраивать рейтинг здесь, поэтому вместо этого мы можем использовать другую постоянную привязку, чтобы превратить это в простой просмотр только для чтения.
         }
         .navigationTitle(book.title)
         .navigationBarTitleDisplayMode(.inline)
