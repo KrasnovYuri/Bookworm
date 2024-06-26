@@ -10,7 +10,7 @@ import SwiftUI
 struct RatingView: View {
     @Binding var rating: Int
     
-    var label = ""
+    var label = "3"
     var maximumRating = 5
     
     var offImage: Image?
@@ -25,7 +25,7 @@ struct RatingView: View {
                 Text(label)
             }
             
-            ForEach(1..<maximumRating + 1, id: \.self) { number in
+            ForEach(1...maximumRating , id: \.self) { number in
                 Button {
                     rating = number
                 } label: {
